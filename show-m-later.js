@@ -24,14 +24,14 @@ var SEND_LOG = false;
  * @type {Array}
  */
 // var labels   = ["Later", "Guys", "Please", "Write", "Translation"];
-var labels = ["Отложить", "Отложить/Нa 6 часов", "Отложить/На 1 день", "Отложить/На 2 дня"];
+var labels = ["Postpone", "Postpone/For 6 hours", "Postpone/For 1 day", "Postpone/For 7 days", "Postpone/For 14 days", "Postpone/For 1 month"];
 
 /**
  * Day factor: 0.25*1 = 6 hours, 1*1 = 1 day.
  * Depends on : var labels
  * @type {Array}
  */
-var labels_int = [0, 0.25, 1, 2];
+var labels_int = [0, 0.25, 1, 7, 14, 30];
 
 
 /**
